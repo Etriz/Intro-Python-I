@@ -39,3 +39,6 @@ waypoints[0]["lon"] = -130
 # YOUR CODE HERE
 for point in waypoints:
     print(point["lat"], point["lon"], point["name"])
+
+# for way in waypoints:
+#     print(", ".join(f"{k}: {v}" for k, v in way.items()))
