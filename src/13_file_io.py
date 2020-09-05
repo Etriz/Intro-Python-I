@@ -24,7 +24,7 @@ with open("foo.txt", "r") as f:
 
 def writeFile():
     b = open("bar.txt", "w")
-    b.write("line 01\nline02\nline03")
+    b.write("line 01\nline 02\nline 03")
     b.close()
 
 
